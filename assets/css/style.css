@@ -71,7 +71,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
+main { /* change .content to main as I went away with the div*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
