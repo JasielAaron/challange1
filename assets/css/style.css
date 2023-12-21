@@ -8,23 +8,24 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header, h1 { /*no class removed . */
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header, h1, .seo {
+
     color: #d9dcd6;
 }
 
-.header div {
+header, nav { /* changed the div to header and nav to reflect it on my website*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,12 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+nav, ul { /*removed the div as HTML is does not have divs anymore*/
     list-style-type: none;
+
 }
 
-.header div ul li {
+nav, ul, li { /*removed the div to nav as in HTML*/
     display: inline-block;
     margin-left: 25px;
 }
@@ -75,7 +77,7 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+aside { /*changed div to aside to reflect the HTML change*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
