@@ -15,7 +15,7 @@ header {
     color: #ffffff;
 }
 
-header h1 { /*no class removed . removes commans */
+header h1 { /*no class removed . removes comas to clean up my display */
     display: inline-block;
     font-size: 48px;
 }
