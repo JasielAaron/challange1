@@ -15,17 +15,17 @@ header {
     color: #ffffff;
 }
 
-header, h1 { /*no class removed . */
+header h1 { /*no class removed . removes commans */
     display: inline-block;
     font-size: 48px;
 }
 
-header, h1, .seo {
+header h1 .seo {
 
     color: #d9dcd6;
 }
 
-header, nav { /* changed the div to header and nav to reflect it on my website*/
+header nav { /* changed the div to header and nav to reflect it on my website*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,12 +33,12 @@ header, nav { /* changed the div to header and nav to reflect it on my website*/
     font-size: 20px;
 }
 
-nav, ul { /*removed the div as HTML is does not have divs anymore*/
+nav ul { /*removed the div as HTML is does not have divs anymore*/
     list-style-type: none;
 
 }
 
-nav, ul, li { /*removed the div to nav as in HTML*/
+nav ul li { /*removed the div to nav as in HTML*/
     display: inline-block;
     margin-left: 25px;
 }
